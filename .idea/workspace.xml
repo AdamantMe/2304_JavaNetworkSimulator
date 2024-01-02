@@ -1,25 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5719111-ab99-4ba8-b886-87089d671792" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkSimulator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="a5719111-ab99-4ba8-b886-87089d671792" name="Changes" comment="Initial repo creation">
+      <change afterPath="$PROJECT_DIR$/src/Builder/TopologyBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Connections/WiredConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Connections/WirelessConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/NetworkTopology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Devices/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Devices/Router.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Devices/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/DataLinkInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/NetworkInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/PhysicalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Packets/EthernetFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Packets/IPPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Simulation/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Simulation/SimulationEnvironment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/ConfigurationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/ConcreteStrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/ConcreteStrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/StrategyContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2aOno3xkmTC5Vah48Osx41O9H3q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +80,41 @@
       <option name="presentableId" value="Default" />
       <updated>1704198667904</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial repo creation">
+      <created>1704199121956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704199121956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial repo creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial repo creation" />
   </component>
 </project>
